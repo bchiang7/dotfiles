@@ -35,11 +35,11 @@
 
 [Slack](https://slack.com/downloads/osx)
 
-[Sketch](https://www.sketchapp.com/)
-
 [Spotify](https://www.spotify.com/us/download/mac/)
 
 [Goofy](http://www.goofyapp.com/)
+
+[Sketch](https://www.sketchapp.com/)
 
 
 ### Other Apps
