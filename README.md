@@ -88,3 +88,8 @@
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+
+### Helpful Links
+[Color Highlighter in Sublime](http://wesbos.com/highlight-css-colours-in-sublime-text/)
+[Open new iTerm tabs with current directory](http://nateeagle.com/2013/03/08/open-new-tabs-in-iterm-in-the-current-directory/)
