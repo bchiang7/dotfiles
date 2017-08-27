@@ -6,6 +6,7 @@
 [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH),
 [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and the
 [Honukai Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh)
+[Spaceship Theme](https://github.com/denysdovhan/spaceship-zsh-theme)
 
 ### Text Editor
 
