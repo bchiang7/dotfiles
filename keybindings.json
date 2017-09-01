@@ -1,9 +1,10 @@
 [
   { "keys": ["super+shift+r"],  "command": "reindent" },
   { "keys": ["super+shift+a"], "command": "alignment" },
+  { "keys": ["f5"], "command": "refresh_folder_list" },
   {
-  "keys": ["tab"],
-  "command": "expand_abbreviation_by_tab",
+    "keys": ["tab"],
+    "command": "expand_abbreviation_by_tab",
 
   // put comma-separated syntax selectors for which
   // you want to expandEmmet abbreviations into "operand" key
