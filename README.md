@@ -13,6 +13,8 @@
 [Sublime Text 3](https://www.sublimetext.com/3) with the
 [Halcyon UI & Syntax Theme](https://github.com/bchiang7/Halcyon)
 
+Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/tests/*`
+
 ### Always There Apps
 
 [Google Drive](https://www.google.com/drive/download/)
