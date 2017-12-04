@@ -5,13 +5,16 @@
 [iTerm2](https://www.iterm2.com/) with
 [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH),
 [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and the
-[Honukai Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh)
-[Spaceship Theme](https://github.com/denysdovhan/spaceship-zsh-theme)
+~~[Honukai Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh)~~
+[Spaceship Theme](https://github.com/denysdovhan/spaceship-zsh-theme) and
+[Halcyon Colors](https://github.com/bchiang7/halcyon-vscode/blob/master/halcyon.itermcolors)
 
 ### Text Editor
 
-[Sublime Text 3](https://www.sublimetext.com/3) with the
-[Halcyon UI & Syntax Theme](https://github.com/bchiang7/Halcyon)
+~~[Sublime Text 3](https://www.sublimetext.com/3) with the
+[Halcyon UI & Syntax Theme](https://github.com/bchiang7/Halcyon)~~
+
+[VS Code](https://code.visualstudio.com/) with my [Halcyon Theme](https://github.com/bchiang7/halcyon-vscode)
 
 Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/tests/*`
 
@@ -40,7 +43,7 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 
 [Spotify](https://www.spotify.com/us/download/mac/)
 
-[Goofy](http://www.goofyapp.com/)
+[Messenger for Mac](https://fbmacmessenger.rsms.me/)
 
 [Sketch](https://www.sketchapp.com/)
 
@@ -48,6 +51,8 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 ### Other Apps
 
 [XCode](https://developer.apple.com/xcode/)
+
+[Sublime Text](https://www.sublimetext.com/3)
 
 [Atom](https://atom.io/)
 
@@ -63,10 +68,6 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 [Git](https://git-scm.com/)
 
 [Homebrew](https://brew.sh/)
-
-[Node.js](https://nodejs.org/en/)
-
-[Sublime Package Control](https://packagecontrol.io/installation)
 
 [NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
 
@@ -84,6 +85,8 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 [Grunt](https://gruntjs.com/)
 
 [Ember](https://www.emberjs.com/)
+
+[Trash](https://github.com/sindresorhus/trash-cli)
 
 
 ### Github Two-Factor Auth
