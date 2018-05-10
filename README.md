@@ -4,40 +4,36 @@
 
 [iTerm2](https://www.iterm2.com/) with
 [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH),
-[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and the
-~~[Honukai Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh)~~
-[Spaceship Theme](https://github.com/denysdovhan/spaceship-zsh-theme) and
-[Halcyon Colors](https://github.com/bchiang7/halcyon-vscode/blob/master/halcyon.itermcolors)
+[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and [Spaceship Prompt](https://github.com/denysdovhan/spaceship-zsh-theme) and
+[Halcyon Theme](https://github.com/bchiang7/halcyon-iterm)
 
 ### Text Editor
 
-~~[Sublime Text 3](https://www.sublimetext.com/3) with the
-[Halcyon UI & Syntax Theme](https://github.com/bchiang7/Halcyon)~~
-
 [VS Code](https://code.visualstudio.com/) with my [Halcyon Theme](https://github.com/bchiang7/halcyon-vscode)
 
-Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/tests/*`
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-### Always There Apps
+### Menu Bar Apps
 
-[Google Drive](https://www.google.com/drive/download/)
+[Google Backup & Sync](https://www.google.com/drive/download/)
 
 [Spectacle](https://www.spectacleapp.com/)
 
-[Flux](https://justgetflux.com/)
-
-[Endurance](http://www.enduranceapp.com/)
-
 [Alfred](https://www.alfredapp.com/)
-
 
 ### Frequently Used Apps
 
 [Google Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html)
 
+[Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+[Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+
 [Polymail](https://polymail.io/)
 
 [Wunderlist](https://www.wunderlist.com/)
+
+[Keep](https://github.com/andrepolischuk/keep)
 
 [Slack](https://slack.com/downloads/osx)
 
@@ -46,7 +42,6 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 [Messenger for Mac](https://fbmacmessenger.rsms.me/)
 
 [Sketch](https://www.sketchapp.com/)
-
 
 ### Other Apps
 
@@ -59,7 +54,6 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 [Postman](https://www.getpostman.com/)
 
 [Filezilla](https://filezilla-project.org/)
-
 
 ### Things to Install
 
@@ -77,7 +71,6 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 
 [Sass](http://sass-lang.com/install)
 
-
 ### npm packages
 
 [Gulp](http://gulpjs.com/)
@@ -88,14 +81,13 @@ Find all excluded folders `-*/dist/*, -*/tmp/*, -*/node_modules/*, -*/lib/*, -*/
 
 [Trash](https://github.com/sindresorhus/trash-cli)
 
-
 ### Github Two-Factor Auth
 
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-
 ### Helpful Links
+
 [Color Highlighter in Sublime](http://wesbos.com/highlight-css-colours-in-sublime-text/)
 [Open new iTerm tabs with current directory](http://nateeagle.com/2013/03/08/open-new-tabs-in-iterm-in-the-current-directory/)
