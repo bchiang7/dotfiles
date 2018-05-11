@@ -10,7 +10,7 @@
 
 [Git](https://git-scm.com/)
 
-[ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH),
+[ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
 [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
