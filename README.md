@@ -1,19 +1,50 @@
-# Configs
+# dotfiles
 
-### Terminal Setup
+## Terminal
 
-[iTerm2](https://www.iterm2.com/) with
+[iTerm2](https://www.iterm2.com/)
+
+[XCode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html)
+
+[Homebrew](https://brew.sh/)
+
+[Git](https://git-scm.com/)
+
 [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH),
-[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), and [Spaceship Prompt](https://github.com/denysdovhan/spaceship-zsh-theme) and
+
+[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+[.zshrc](https://raw.githubusercontent.com/bchiang7/dotfiles/master/.zshrc)
+
 [Halcyon Theme](https://github.com/bchiang7/halcyon-iterm)
 
-### Text Editor
+## Things to Install
 
-[VS Code](https://code.visualstudio.com/) with my [Halcyon Theme](https://github.com/bchiang7/halcyon-vscode)
+[NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
+
+[RVM](https://rvm.io/)
+
+[VirtualEnv](https://virtualenv.pypa.io/en/stable/)
+
+[Sass](http://sass-lang.com/install)
+
+[Gulp](http://gulpjs.com/)
+
+[Grunt](https://gruntjs.com/)
+
+[Ember](https://www.emberjs.com/)
+
+[Trash](https://github.com/sindresorhus/trash-cli)
+
+## Text Editor
+
+[VS Code](https://code.visualstudio.com/)
+
+[Halcyon Theme](https://github.com/bchiang7/halcyon-vscode)
 
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-### Menu Bar Apps
+## Menu Bar Apps
 
 [Google Backup & Sync](https://www.google.com/drive/download/)
 
@@ -21,7 +52,7 @@
 
 [Alfred](https://www.alfredapp.com/)
 
-### Frequently Used Apps
+## Frequently Used Apps
 
 [Google Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html)
 
@@ -43,7 +74,7 @@
 
 [Sketch](https://www.sketchapp.com/)
 
-### Other Apps
+## Other Apps
 
 [XCode](https://developer.apple.com/xcode/)
 
@@ -53,41 +84,18 @@
 
 [Postman](https://www.getpostman.com/)
 
+[Hyper](https://hyper.is/)
+
 [Filezilla](https://filezilla-project.org/)
 
-### Things to Install
-
-[XCode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html)
-
-[Git](https://git-scm.com/)
-
-[Homebrew](https://brew.sh/)
-
-[NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
-
-[RVM](https://rvm.io/)
-
-[VirtualEnv](https://virtualenv.pypa.io/en/stable/)
-
-[Sass](http://sass-lang.com/install)
-
-### npm packages
-
-[Gulp](http://gulpjs.com/)
-
-[Grunt](https://gruntjs.com/)
-
-[Ember](https://www.emberjs.com/)
-
-[Trash](https://github.com/sindresorhus/trash-cli)
-
-### Github Two-Factor Auth
+## Github Two-Factor Auth
 
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
-### Helpful Links
+## Helpful Links
 
 [Color Highlighter in Sublime](http://wesbos.com/highlight-css-colours-in-sublime-text/)
+
 [Open new iTerm tabs with current directory](http://nateeagle.com/2013/03/08/open-new-tabs-in-iterm-in-the-current-directory/)

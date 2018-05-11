@@ -7,7 +7,19 @@ export ZSH=/Users/brittanychiang/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="honukai"
+ZSH_THEME="spaceship"
+
+SPACESHIP_BATTERY_SHOW=false
+
+source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+
+
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +63,7 @@ ZSH_THEME="honukai"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions bundler osx extract)
+plugins=(git zsh-autosuggestions osx extract docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,7 +95,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias subl="open -a 'Sublime Text'"
 
-export NVM_DIR="/Users/brittanychiang/.nvm"
+alias subl="open -a 'Sublime Text'"
+alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
+
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="$PATH:/usr/local/mysql/bin"
