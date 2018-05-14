@@ -1,0 +1,89 @@
+{
+  "editor.colorDecorators": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorWidth": 2,
+  "editor.detectIndentation": false,
+  "editor.dragAndDrop": false,
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Inconsolata",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 22,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderLineHighlight": "all",
+  "editor.renderWhitespace": "none",
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "markdown": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.enable": true,
+  "extensions.autoUpdate": true,
+  "files.associations": {
+    "*.html": "html",
+    "*.sublime-theme": "jsonc"
+  },
+  "files.exclude": {
+    "node_modules/": true,
+    "tmp/": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "prettier.singleQuote": true,
+  "search.exclude": {
+    "node_modules/": true,
+    "dist/": true,
+    "tmp/": true
+  },
+  "sublimeTextKeymap.promptV3Features": true,
+  "macros": {
+    "splitPane": [
+      "workbench.action.splitEditor",
+      "workbench.action.files.newUntitledFile",
+      "workbench.action.moveEditorLeftInGroup",
+      "workbench.action.closeEditorsToTheRight"
+    ]
+  },
+  "sync.gist": "560603e9f050d552434e9c8cfb241ba8",
+  "sync.lastUpload": "2018-05-10T19:46:03.648Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "Fira Mono for Powerline",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.lineHeight": 1,
+  "window.openFoldersInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "window.title": "${activeEditorFull}${separator}${rootName}",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "Halcyon",
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "Halcyon",
+  "workbench.startupEditor": "newUntitledFile",
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true
+}
