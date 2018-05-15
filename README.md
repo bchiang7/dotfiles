@@ -6,9 +6,9 @@
 
 [XCode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html)
 
-[Homebrew](https://brew.sh/)
+`xcode-select --install`
 
-[Git](https://git-scm.com/)
+[Homebrew](https://brew.sh/)
 
 [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
