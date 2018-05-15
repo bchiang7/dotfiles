@@ -44,8 +44,6 @@
 
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-Token `659a6b554ddfb5fc50cf964bc6138fa73ed1ac14`
-
 ## Menu Bar Apps
 
 [Google Backup & Sync](https://www.google.com/drive/download/)
