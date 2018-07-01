@@ -36,6 +36,8 @@
 
 [Trash](https://github.com/sindresorhus/trash-cli)
 
+[z](https://github.com/rupa/z)
+
 ## Text Editor
 
 [VS Code](https://code.visualstudio.com/)
@@ -44,6 +46,8 @@
 
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
+[Fira Code](https://github.com/tonsky/FiraCode)
+
 ## Menu Bar Apps
 
 [Google Backup & Sync](https://www.google.com/drive/download/)
@@ -51,6 +55,8 @@
 [Spectacle](https://www.spectacleapp.com/)
 
 [Alfred](https://www.alfredapp.com/)
+
+[Docker](https://docs.docker.com/install/)
 
 ## Frequently Used Apps
 
@@ -93,9 +99,3 @@
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-## Helpful Links
-
-[Color Highlighter in Sublime](http://wesbos.com/highlight-css-colours-in-sublime-text/)
-
-[Open new iTerm tabs with current directory](http://nateeagle.com/2013/03/08/open-new-tabs-in-iterm-in-the-current-directory/)
