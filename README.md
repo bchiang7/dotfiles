@@ -18,8 +18,6 @@
 
 [Halcyon Theme](https://github.com/bchiang7/halcyon-iterm)
 
-## Things to Install
-
 [NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
 
 [RVM](https://rvm.io/)
@@ -58,6 +56,10 @@
 
 [Docker](https://docs.docker.com/install/)
 
+[Clipy](https://clipy-app.com/)
+
+[Todoist](https://en.todoist.com/app?lang=en)
+
 ## Frequently Used Apps
 
 [Google Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html)
@@ -77,6 +79,8 @@
 [Spotify](https://www.spotify.com/us/download/mac/)
 
 [Messenger for Mac](https://fbmacmessenger.rsms.me/)
+
+[Android Messages Desktop](https://github.com/chrisknepper/android-messages-desktop)
 
 [Sketch](https://www.sketchapp.com/)
 
