@@ -6,7 +6,22 @@
 
 [XCode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html)
 
-`xcode-select --install`
+```bash
+xcode-select --install
+```
+
+Fix macOS Mojave fonts
+
+```bash
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+```
+
+Show hidden dotfiles in finder
+
+```bash
+defaults write com.apple.finder AppleShowAllFiles YES
+killall Finder
+```
 
 [Homebrew](https://brew.sh/)
 
@@ -19,18 +34,6 @@
 [Halcyon Theme](https://github.com/bchiang7/halcyon-iterm)
 
 [NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
-
-[RVM](https://rvm.io/)
-
-[VirtualEnv](https://virtualenv.pypa.io/en/stable/)
-
-[Sass](http://sass-lang.com/install)
-
-[Gulp](http://gulpjs.com/)
-
-[Grunt](https://gruntjs.com/)
-
-[Ember](https://www.emberjs.com/)
 
 [Trash](https://github.com/sindresorhus/trash-cli)
 
@@ -58,7 +61,7 @@
 
 [Clipy](https://clipy-app.com/)
 
-[Todoist](https://en.todoist.com/app?lang=en)
+[Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
 
 ## Frequently Used Apps
 
@@ -70,7 +73,9 @@
 
 [Polymail](https://polymail.io/)
 
-[Wunderlist](https://www.wunderlist.com/)
+[Spark](https://sparkmailapp.com/)
+
+[Todoist](https://todoist.com/downloads/mac)
 
 [Keep](https://github.com/andrepolischuk/keep)
 
