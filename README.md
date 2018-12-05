@@ -108,3 +108,28 @@ killall Finder
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+## Installable with Brew Cask
+
+[Install Brew Cask](http://caskroom.io/)
+
+`brew cask install google-chrome`
+
+- iterm2
+- visual-studio-code
+- google-chrome
+- google-backup-and-sync
+- spectacle
+- alfred
+- docker
+- clipy
+- firefox
+- polymail
+- spark
+- slack
+- spotify
+- sketch
+- sublime-text
+- atom
+- postman
+- hyper
