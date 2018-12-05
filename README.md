@@ -115,21 +115,24 @@ killall Finder
 
 `brew cask install google-chrome`
 
-- iterm2
-- visual-studio-code
-- google-chrome
-- google-backup-and-sync
-- spectacle
+- 1password
 - alfred
-- docker
-- clipy
-- firefox
-- polymail
-- spark
-- slack
-- spotify
-- sketch
-- sublime-text
 - atom
-- postman
+- canary
+- clipy
+- docker
+- dropbox
+- firefox
+- google-backup-and-sync
+- google-chrome
 - hyper
+- iterm2
+- polymail
+- postman
+- sketch
+- slack
+- spark
+- spectacle
+- sublime-text
+- spotify
+- visual-studio-code
