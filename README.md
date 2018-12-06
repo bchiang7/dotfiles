@@ -1,138 +1,133 @@
 # dotfiles
 
-## Terminal
+## Install
 
-[iTerm2](https://www.iterm2.com/)
+Clone the repo
 
-[XCode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html)
-
-```bash
-xcode-select --install
+```sh
+git clone git@github.com:bchiang7/dotfiles.git && cd dotfiles
 ```
 
-Fix macOS Mojave fonts
+Run the install script
 
-```bash
-defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+```sh
+sh install.sh
 ```
 
-Show hidden dotfiles in finder
+## What's In the Box
 
-```bash
-defaults write com.apple.finder AppleShowAllFiles YES
-killall Finder
-```
+<details>
+<summary>Package Managers</summary>
 
-[Homebrew](https://brew.sh/)
+- [NVM](https://github.com/creationix/nvm/)
+- [Yarn](https://yarnpkg.com/en/)
+- [Homebrew](http://brew.sh/)
 
-[ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+</details>
 
-[Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+<details>
+<summary>CLI Tools & Utilities</summary>
 
-[.zshrc](https://raw.githubusercontent.com/bchiang7/dotfiles/master/.zshrc)
+- [XCode Command Line Tools](https://developer.apple.com/xcode/downloads/)
+- [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+- [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Spaceship Prompt for ZSH](https://github.com/denysdovhan/spaceship-prompt)
+- [Trash](https://github.com/sindresorhus/trash-cli)
+- [Gulp](https://gulpjs.com/)
+- [Gatsby](https://www.gatsbyjs.org/docs/)
+- [Vue](https://cli.vuejs.org/)
+- [vsce](https://code.visualstudio.com/docs/extensions/publish-extension)
+- [yo](https://github.com/yeoman/yo)
+- [z](https://github.com/rupa/z)
+- [mas](https://github.com/mas-cli/mas)
 
-[Halcyon Theme](https://github.com/bchiang7/halcyon-iterm)
+</details>
 
-[NVM](https://github.com/creationix/nvm/blob/master/README.md#installation)
+<details>
+<summary>Productivity</summary>
 
-[Trash](https://github.com/sindresorhus/trash-cli)
+- [Google Backup & Sync](https://www.google.com/drive/download/)
+- [Spectacle](https://www.spectacleapp.com/)
+- [Clipy](https://clipy-app.com/)
+- [Alfred](https://www.alfredapp.com/)
 
-[z](https://github.com/rupa/z)
+</details>
 
-## Text Editor
+<details>
+<summary>Development</summary>
 
-[VS Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Atom](https://atom.io/)
+- [iTerm2](https://www.iterm2.com/)
+- [Hyper](https://hyper.is/)
+- [Postman](https://www.getpostman.com/)
+- [Docker](https://docs.docker.com/install/)
 
-[Halcyon Theme](https://github.com/bchiang7/halcyon-vscode)
+</details>
+
+<details>
+<summary>Design</summary>
+
+- [Sketch](https://www.sketchapp.com/)
+- [ImageOptim](https://imageoptim.com/mac)
+
+</details>
+
+<details>
+<summary>Communication</summary>
+
+- [Slack](https://slack.com/)
+- [Spark](https://sparkmailapp.com/)
+
+</details>
+
+<details>
+<summary>Miscellaneous</summary>
+
+- [1Password](https://1password.com/)
+- [Rocket](http://matthewpalmer.net/rocket/)
+- [Spotify](https://www.spotify.com/)
+- [VLC](http://www.videolan.org/)
+
+</details>
+
+<details>
+<summary>Browsers</summary>
+
+- [Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Chrome Canary](https://www.google.com/chrome/canary/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+</details>
+
+## Other Things
+
+[Halcyon iTerm Theme](https://github.com/bchiang7/halcyon-iterm)
+
+[XCode](https://developer.apple.com/xcode/)
 
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
-## Menu Bar Apps
-
-[Google Backup & Sync](https://www.google.com/drive/download/)
-
-[Spectacle](https://www.spectacleapp.com/)
-
-[Alfred](https://www.alfredapp.com/)
-
-[Docker](https://docs.docker.com/install/)
-
-[Clipy](https://clipy-app.com/)
+[Powerline Fonts](https://github.com/powerline/fonts)
 
 [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
 
-## Frequently Used Apps
-
-[Google Chrome](https://www.google.com/intl/en/chrome/browser/desktop/index.html)
-
-[Firefox](https://www.mozilla.org/en-US/firefox/new/)
+[Todoist](https://todoist.com/downloads/mac)
 
 [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
-[Polymail](https://polymail.io/)
-
-[Spark](https://sparkmailapp.com/)
-
-[Todoist](https://todoist.com/downloads/mac)
-
-[Keep](https://github.com/andrepolischuk/keep)
-
-[Slack](https://slack.com/downloads/osx)
-
-[Spotify](https://www.spotify.com/us/download/mac/)
-
 [Messenger for Mac](https://fbmacmessenger.rsms.me/)
+
+[Google Keep Desktop](https://github.com/andrepolischuk/keep)
 
 [Android Messages Desktop](https://github.com/chrisknepper/android-messages-desktop)
 
-[Sketch](https://www.sketchapp.com/)
 
-## Other Apps
-
-[XCode](https://developer.apple.com/xcode/)
-
-[Sublime Text](https://www.sublimetext.com/3)
-
-[Atom](https://atom.io/)
-
-[Postman](https://www.getpostman.com/)
-
-[Hyper](https://hyper.is/)
-
-[Filezilla](https://filezilla-project.org/)
-
-## Github Two-Factor Auth
+## Github SSH Key Setup
 
 [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 [Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-## Installable with Brew Cask
-
-[Install Brew Cask](http://caskroom.io/)
-
-`brew cask install google-chrome`
-
-- 1password
-- alfred
-- atom
-- canary
-- clipy
-- docker
-- dropbox
-- firefox
-- google-backup-and-sync
-- google-chrome
-- hyper
-- iterm2
-- polymail
-- postman
-- sketch
-- slack
-- spark
-- spectacle
-- sublime-text
-- spotify
-- visual-studio-code
