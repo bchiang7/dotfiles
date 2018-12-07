@@ -59,27 +59,55 @@ printf "\n${MAGENTA}Installing fonts..."
 eval "sh install/fonts.sh"
 
 # Open links for apps that can't be downloaded via brew cask
-printf "\n${BLUE}Opening links for apps that can't be installed with cask...${NORMAL}\n"
+printf "\n${BLUE}Opening links for apps to download...${NORMAL}\n"
+
+# Browsers
+eval "open https://www.google.com/chrome/"
+eval "open https://www.google.com/chrome/canary/"
+eval "open https://www.mozilla.org/en-US/firefox/new/"
 eval "open https://www.mozilla.org/en-US/firefox/developer/"
-eval "open https://github.com/chrisknepper/android-messages-desktop"
-eval "open https://github.com/andrepolischuk/keep"
-eval "open https://fbmacmessenger.rsms.me/"
-eval "open https://developer.apple.com/xcode/"
+
+# Productivity
+eval "open https://www.google.com/drive/download/"
+eval "open https://www.spectacleapp.com/"
+eval "open https://clipy-app.com/"
+eval "open https://www.alfredapp.com/"
+eval "open https://1password.com/downloads/mac/"
 eval "open https://itunes.apple.com/us/app/todoist-organize-your-life/id585829637?mt=12&ign-mpt=uo%3D4"
 eval "open https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12"
+eval "open https://github.com/andrepolischuk/keep"
+
+# Development
+eval "open https://code.visualstudio.com/"
+eval "open https://www.sublimetext.com/"
+eval "open https://atom.io/"
+eval "open https://www.iterm2.com/"
+eval "open https://hyper.is/"
+eval "open https://www.getpostman.com/"
+eval "open https://docs.docker.com/docker-for-mac/install/"
+eval "open https://developer.apple.com/xcode/"
+
+# Design
+eval "open https://www.sketchapp.com/"
+eval "open https://imageoptim.com/mac"
+
+# Communication
+eval "open https://slack.com/downloads/osx"
+eval "open https://sparkmailapp.com/"
+eval "open https://github.com/chrisknepper/android-messages-desktop"
+eval "open https://fbmacmessenger.rsms.me/"
+
+# Miscellaneous
+eval "open https://www.spotify.com/us/download/mac/"
+eval "open http://www.videolan.org/"
+
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
 
 ${GREEN}All set!
 
-${WHITE}Make sure to follow the instructions in the links below to generate a new SSH key and then add the key to your GitHub account.
-
-${YELLOW}https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key
-
-${YELLOW}https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account
-
-${WHITE}Opening links...
+${WHITE}Make sure to follow the instructions on GitHub to generate a new SSH key and then add the key to your GitHub account.
 
 ==============================================================================${NORMAL}\n"
 

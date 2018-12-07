@@ -14,7 +14,7 @@ Run the install script
 sh install.sh
 ```
 
-## What's In the Box
+## Things
 
 <details>
 <summary>Package Managers</summary>
@@ -44,12 +44,26 @@ sh install.sh
 </details>
 
 <details>
+<summary>Browsers</summary>
+
+- [Chrome](https://www.google.com/chrome/browser/desktop/)
+- [Chrome Canary](https://www.google.com/chrome/canary/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+
+</details>
+
+<details>
 <summary>Productivity</summary>
 
 - [Google Backup & Sync](https://www.google.com/drive/download/)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Clipy](https://clipy-app.com/)
 - [Alfred](https://www.alfredapp.com/)
+- [1Password](https://1password.com/)
+- [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
+- [Todoist](https://todoist.com/downloads/mac)
+- [Google Keep Desktop](https://github.com/andrepolischuk/keep)
 
 </details>
 
@@ -62,7 +76,8 @@ sh install.sh
 - [iTerm2](https://www.iterm2.com/)
 - [Hyper](https://hyper.is/)
 - [Postman](https://www.getpostman.com/)
-- [Docker](https://docs.docker.com/install/)
+- [Docker](https://docs.docker.com/docker-for-mac/install/)
+- [XCode](https://developer.apple.com/xcode/)
 
 </details>
 
@@ -79,51 +94,21 @@ sh install.sh
 
 - [Slack](https://slack.com/)
 - [Spark](https://sparkmailapp.com/)
+- [Android Messages Desktop](https://github.com/chrisknepper/android-messages-desktop)
+- [Messenger for Mac](https://fbmacmessenger.rsms.me/)
 
 </details>
 
 <details>
 <summary>Miscellaneous</summary>
 
-- [1Password](https://1password.com/)
 - [Rocket](http://matthewpalmer.net/rocket/)
 - [Spotify](https://www.spotify.com/)
 - [VLC](http://www.videolan.org/)
 
 </details>
 
-<details>
-<summary>Browsers</summary>
-
-- [Chrome](https://www.google.com/chrome/browser/desktop/)
-- [Chrome Canary](https://www.google.com/chrome/canary/)
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-
-</details>
-
-## Other Things
-
-[Halcyon iTerm Theme](https://github.com/bchiang7/halcyon-iterm)
-
-[XCode](https://developer.apple.com/xcode/)
-
-[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-[Fira Code](https://github.com/tonsky/FiraCode)
-
-[Powerline Fonts](https://github.com/powerline/fonts)
-
-[Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
-
-[Todoist](https://todoist.com/downloads/mac)
-
-[Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
-
-[Messenger for Mac](https://fbmacmessenger.rsms.me/)
-
-[Google Keep Desktop](https://github.com/andrepolischuk/keep)
-
-[Android Messages Desktop](https://github.com/chrisknepper/android-messages-desktop)
+## iTerm Colors Import
 
 
 ## Github SSH Key Setup
