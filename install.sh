@@ -41,7 +41,7 @@ printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
 
 # Copy ZSH config
-printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NO_COLOR}\n"
+printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
 eval "cp .zshrc ~/.zshrc"
 
 # Set up VS Code Settings and Extensions
@@ -51,22 +51,22 @@ eval "sh install/vscode.sh"
 printf "\n${GREEN}Installing global npm packages for Spaceship ZSH Prompt, Trash CLI, Gulp CLI, Docker CLI, Gatsby CLI, Vue CLI...${NORMAL}\n"
 eval "npm install -g spaceship-prompt trash-cli gulp-cli docker-cli gatsby-cli @vue/cli vsce yo"
 
-# Refresh everything
+# Refresh ZSH config
 eval "source ~/.zshrc"
 
 # Install fonts
-# TODO:
+printf "\n${MAGENTA}Installing fonts..."
+eval "sh install/fonts.sh"
 
-printf "\n${BLUE}Opening links for apps that can't be downloaded via the command line...${NORMAL}\n"
-
-eval "open https://developer.apple.com/xcode/"
-eval "open https://itunes.apple.com/us/app/todoist-organize-your-life/id585829637?mt=12&ign-mpt=uo%3D4"
-eval "open https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12"
+# Open links for apps that can't be downloaded via brew cask
+printf "\n${BLUE}Opening links for apps that can't be installed with cask...${NORMAL}\n"
 eval "open https://www.mozilla.org/en-US/firefox/developer/"
 eval "open https://github.com/chrisknepper/android-messages-desktop"
 eval "open https://github.com/andrepolischuk/keep"
-eval "open https://github.com/andrepolischuk/keep"
 eval "open https://fbmacmessenger.rsms.me/"
+eval "open https://developer.apple.com/xcode/"
+eval "open https://itunes.apple.com/us/app/todoist-organize-your-life/id585829637?mt=12&ign-mpt=uo%3D4"
+eval "open https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12"
 
 # Follow the instructions on GitHub to generate a new SSH key and add it to your Github account.
 printf "\n${WHITE}==============================================================================
@@ -85,9 +85,3 @@ ${WHITE}Opening links...
 
 eval "open https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key"
 eval "open https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account"
-
-
-# Open links for apps that can't be downloaded via brew cask
-
-
-# Install fonts

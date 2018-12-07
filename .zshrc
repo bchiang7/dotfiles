@@ -49,10 +49,6 @@ SPACESHIP_TIME_SHOW=true
 SPACESHIP_TIME_12HR=true
 SPACESHIP_PACKAGE_SYMBOL=📦
 
-
-source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-
-
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
@@ -105,6 +101,7 @@ source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 plugins=(git zsh-autosuggestions osx extract docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
@@ -142,6 +139,7 @@ alias grd="git rebase develop"
 alias gc="git clone"
 alias gclean="git branch | grep -v "develop" | xargs git branch -D"
 alias listglobalpackages="npm list -g --depth 0"
+alias listvscodeextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -153,3 +151,5 @@ if command -v brew >/dev/null 2>&1; then
 	# Load rupa's z if installed
 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
 fi
+
+source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"

@@ -12,7 +12,8 @@ NORMAL="\033[0;39m"
 printf "${BLUE}Copying VS Code user settings...${NORMAL}\n"
 eval "cp ./settings.json ~/Library/Application\ Support/Code/User"
 
-# Install vscode extensions
+# Install vscode extensions from the list in extensions.txt
+printf "${BLUE}Installing VS Code extensions...${NORMAL}\n"
 if test $(which code); then
   filename="./extensions.txt"
   while read -r line;

@@ -40,7 +40,7 @@ printf "\n${YELLOW}Installing Homebrew Cask...${NORMAL}\n"
 eval "brew tap caskroom/cask"
 
 # Installing casks
-printf "\n${YELLOW}Installing apps via Homebrew...${NORMAL}\n"
+printf "\n${YELLOW}Installing apps with cask...${NORMAL}\n"
 CASKS=(
   1password
 	alfred
@@ -63,8 +63,18 @@ CASKS=(
 	sublime-text
 	spotify
 	visual-studio-code
+	vlc
 )
-eval "brew cask install ${CASKS[@]}"
+
+# install_application_via_brew() {
+#   if [[ ! $(brew cask list | grep $cask) ]]; then
+#     echo_install "Installing $cask"
+#     brew cask install $cask --appdir=/Applications >/dev/null
+#     print_in_green "${bold}✓ installed!${normal}\n"
+#   else
+#   	print_success_muted "$cask already installed. Skipped."
+#   fi
+# }
 
 printf "\n${GREEN}Homebrew casks installed!${NORMAL}\n"
 
