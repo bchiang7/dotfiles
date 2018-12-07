@@ -40,8 +40,12 @@ eval "sh install/brew.sh"
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
 
-# Add snippet for z to ~/.zshrc
-eval "cat install/z.sh >> ~/.zshrc"
+# Copy ZSH config
+printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NO_COLOR}\n"
+eval "cp .zshrc ~/.zshrc"
+
+# Set up VS Code Settings and Extensions
+eval "sh install/vscode.sh"
 
 # Add global NPM packages
 printf "\n${GREEN}Installing global npm packages for Spaceship ZSH Prompt, Trash CLI, Gulp CLI, Docker CLI, Gatsby CLI, Vue CLI...${NORMAL}\n"
@@ -49,6 +53,9 @@ eval "npm install -g spaceship-prompt trash-cli gulp-cli docker-cli gatsby-cli @
 
 # Refresh everything
 eval "source ~/.zshrc"
+
+# Install fonts
+# TODO:
 
 printf "\n${BLUE}Opening links for apps that can't be downloaded via the command line...${NORMAL}\n"
 
