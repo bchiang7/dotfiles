@@ -14,6 +14,7 @@ eval "cp ./settings.json ~/Library/Application\ Support/Code/User"
 
 # Install vscode extensions from the list in extensions.txt
 printf "${BLUE}Installing VS Code extensions...${NORMAL}\n"
+
 if test $(which code); then
   filename="./extensions.txt"
   while read -r line;

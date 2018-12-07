@@ -39,6 +39,10 @@ printf "\n${GREEN}Homebrew packages installed!${NORMAL}\n"
 printf "\n${YELLOW}Installing Homebrew Cask...${NORMAL}\n"
 eval "brew tap caskroom/cask"
 
+# Installing VS Code
+printf "\n${YELLOW}Installing VS Code...${NORMAL}\n"
+eval "brew cask install visual-studio-code"
+
 # Clean it up
 printf "\n${YELLOW}Cleaning up homebrew things...${NORMAL}\n"
 eval "brew cleanup"

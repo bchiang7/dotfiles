@@ -108,8 +108,14 @@ sh install.sh
 
 </details>
 
-## iTerm Colors Import
+## Import iTerm theme
 
+- **iTerm2** > **Profiles**
+- Click on **+** to create a new profile
+- Navigate to **Colors** tab
+- **Color Presets** > **Import**
+- Select the `halcyon.itermcolors` file in this repo
+- Click on **Color Presets** and choose `halcyon`
 
 ## Github SSH Key Setup
 

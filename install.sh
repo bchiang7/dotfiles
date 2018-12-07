@@ -44,6 +44,10 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
 eval "cp .zshrc ~/.zshrc"
 
+# Install fonts
+printf "\n${MAGENTA}Installing fonts..."
+eval "sh install/fonts.sh"
+
 # Set up VS Code Settings and Extensions
 eval "sh install/vscode.sh"
 
@@ -53,10 +57,6 @@ eval "npm install -g spaceship-prompt trash-cli gulp-cli docker-cli gatsby-cli @
 
 # Refresh ZSH config
 eval "source ~/.zshrc"
-
-# Install fonts
-printf "\n${MAGENTA}Installing fonts..."
-eval "sh install/fonts.sh"
 
 # Open links for apps that can't be downloaded via brew cask
 printf "\n${BLUE}Opening links for apps to download...${NORMAL}\n"
@@ -98,6 +98,7 @@ eval "open https://github.com/chrisknepper/android-messages-desktop"
 eval "open https://fbmacmessenger.rsms.me/"
 
 # Miscellaneous
+eval "open http://matthewpalmer.net/rocket/"
 eval "open https://www.spotify.com/us/download/mac/"
 eval "open http://www.videolan.org/"
 
