@@ -2,17 +2,17 @@
 
 ## Install
 
-Clone the repo
+1. Clone the repo
 
-```sh
-git clone git@github.com:bchiang7/dotfiles.git && cd dotfiles
-```
+    ```bash
+    git clone git@github.com:bchiang7/dotfiles.git && cd dotfiles
+    ```
 
-Run the install script
+2. Run the install script
 
-```sh
-sh install.sh
-```
+    ```bash
+    sh install.sh
+    ```
 
 ## Things
 

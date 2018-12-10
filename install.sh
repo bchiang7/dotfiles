@@ -10,7 +10,7 @@ NORMAL="\033[0;39m"
 
 printf "\n${WHITE}==============================================================================
 
-COMPUTER, DO THE THING
+SETTING UP YOUR COMPUTER!
 
 ==============================================================================${NORMAL}\n"
 
@@ -34,7 +34,7 @@ eval "nvm install node --lts"
 eval "nvm alias default node"
 
 # Install Homebrew and its packages
-eval "sh install/brew.sh"
+eval "sh scripts/brew.sh"
 
 # Install Oh My Zsh
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
@@ -42,14 +42,13 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 
 # Copy ZSH config
 printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
-eval "cp .zshrc ~/.zshrc"
+eval "cp ./zshrc ~/.zshrc"
 
 # Install fonts
-printf "\n${MAGENTA}Installing fonts..."
-eval "sh install/fonts.sh"
+eval "sh scripts/fonts.sh"
 
 # Set up VS Code Settings and Extensions
-eval "sh install/vscode.sh"
+eval "sh scripts/vscode.sh"
 
 # Add global NPM packages
 printf "\n${GREEN}Installing global npm packages for Spaceship ZSH Prompt, Trash CLI, Gulp CLI, Docker CLI, Gatsby CLI, Vue CLI...${NORMAL}\n"

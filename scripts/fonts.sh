@@ -9,5 +9,5 @@ WHITE="\033[37m"
 NORMAL="\033[0;39m"
 
 # Install fonts
-printf "${GREEN}Installing fonts...${NORMAL}\n"
-eval "cp ../fonts/**/*.{otf,ttf} /Library/Fonts/"
+printf "${GREEN}Installing fonts...${NORMAL}\n\n"
+eval "cp ./fonts/**/*.{otf,ttf} ~/Library/Fonts/"
