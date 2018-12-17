@@ -7,6 +7,7 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
   "editor.insertSpaces": false,
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
@@ -24,7 +25,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "markdown": "html",
-    "twig":"html",
+    "twig": "html"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -40,9 +41,8 @@
     "*.sublime-theme": "jsonc"
   },
   "files.exclude": {
-    "node_modules/": true,
-    "tmp/": true,
-    // "build/": true,
+    "**/node_modules/": true,
+    "**/tmp/": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -50,13 +50,6 @@
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "git.decorations.enabled": true,
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ],
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
@@ -66,12 +59,16 @@
   "material-icon-theme.folders.color": "#8695b7",
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
-  "prettier.requireConfig": true,
+  "prettier.ignorePath": "**/*.twig",
   "problems.decorations.enabled": true,
   "search.exclude": {
-    "**/bower_components": false,
+    "**/node_modules": true,
+    "**/bower_components": true,
     "**/dist": true,
-    "**/tmp": true
+    "**/tmp": true,
+    "**/public": true,
+    "**/vendor": true,
+    "**/storage": true
   },
   "sublimeTextKeymap.promptV3Features": true,
   "sync.gist": "560603e9f050d552434e9c8cfb241ba8",
@@ -105,6 +102,5 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": false,
-  "editor.accessibilitySupport": "off",
+  "workbench.statusBar.feedback.visible": false
 }
