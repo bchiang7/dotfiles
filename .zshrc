@@ -152,4 +152,7 @@ if command -v brew >/dev/null 2>&1; then
 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
 fi
 
+# https://hub.github.com/
+eval "$(hub alias -s)"
+
 source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"

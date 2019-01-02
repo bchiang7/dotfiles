@@ -30,6 +30,7 @@ PACKAGES=(
 	composer
 	mas
   heroku/brew/heroku
+  hub
 )
 eval "brew install ${PACKAGES[@]}"
 eval "brew install yarn --without-node"
