@@ -140,6 +140,7 @@ alias gc="git clone"
 alias gclean="git branch | grep -v "develop" | xargs git branch -D"
 alias listglobalpackages="npm list -g --depth 0"
 alias listvscodeextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
+alias browse="git browse"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
