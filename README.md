@@ -16,7 +16,7 @@
 
 [Test Download](./install.sh)
 
-<a href="#" download="./install.sh">download this</a>
+<a download="./install.sh">download this</a>
 
 ## Things
 
