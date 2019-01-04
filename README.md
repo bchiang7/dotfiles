@@ -4,15 +4,19 @@
 
 1. Clone the repo
 
-    ```bash
-    git clone git@github.com:bchiang7/dotfiles.git && cd dotfiles
-    ```
+   ```bash
+   git clone git@github.com:bchiang7/dotfiles.git && cd dotfiles
+   ```
 
 2. Run the install script
 
-    ```bash
-    sh install.sh
-    ```
+   ```bash
+   sh install.sh
+   ```
+
+[Test Download](./install.sh)
+
+<a href="#" download="./install.sh">download this</a>
 
 ## Things
 
