@@ -2,11 +2,7 @@
 
 ## Install
 
-1. Clone the repo
-
-   ```bash
-   https://github.com/bchiang7/dotfiles.git && cd dotfiles
-   ```
+1. Download the repo ZIP and extract
 
 2. Run the install script
 
