@@ -99,7 +99,9 @@
 <summary>Miscellaneous</summary>
 
 - [Rocket](http://matthewpalmer.net/rocket/)
+- [Vanilla](https://matthewpalmer.net/vanilla/)
 - [Spotify](https://www.spotify.com/)
+- [Airbar](https://tiivik.github.io/)
 - [VLC](http://www.videolan.org/)
 
 </details>

@@ -98,6 +98,8 @@ eval "open https://fbmacmessenger.rsms.me/"
 
 # Miscellaneous
 eval "open http://matthewpalmer.net/rocket/"
+eval "open https://matthewpalmer.net/vanilla/"
+eval "open https://tiivik.github.io/"
 eval "open https://www.spotify.com/us/download/mac/"
 eval "open http://www.videolan.org/"
 
