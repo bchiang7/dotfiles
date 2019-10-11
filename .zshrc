@@ -9,45 +9,9 @@ export ZSH=/Users/brittanychiang/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="spaceship"
 
-SPACESHIP_PROMPT_ORDER=(
-  user          # Username section
-  dir           # Current directory section
-  host          # Hostname section
-  git           # Git section (git_branch + git_status)
-  hg            # Mercurial section (hg_branch  + hg_status)
-  package       # Package version
-  node          # Node.js section
-  ruby          # Ruby section
-  elixir        # Elixir section
-  xcode         # Xcode section
-  swift         # Swift section
-  golang        # Go section
-  php           # PHP section
-  rust          # Rust section
-  haskell       # Haskell Stack section
-  julia         # Julia section
-  docker        # Docker section
-  aws           # Amazon Web Services section
-  venv          # virtualenv section
-  conda         # conda virtualenv section
-  pyenv         # Pyenv section
-  dotnet        # .NET section
-  ember         # Ember.js section
-  kubecontext   # Kubectl context section
-  exec_time     # Execution time
-  time          # Time stamps section
-  line_sep      # Line break
-  battery       # Battery level and status
-  vi_mode       # Vi-mode indicator
-  jobs          # Background jobs indicator
-  exit_code     # Exit code section
-  char          # Prompt character
-)
-
 SPACESHIP_BATTERY_SHOW=false
-SPACESHIP_TIME_SHOW=true
-SPACESHIP_TIME_12HR=true
-SPACESHIP_PACKAGE_SYMBOL=📦
+
+source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -101,7 +65,6 @@ SPACESHIP_PACKAGE_SYMBOL=📦
 plugins=(git zsh-autosuggestions osx extract docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
 
@@ -123,6 +86,10 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+eval "$(hub alias -s)"
+
+eval "$(rbenv init -)"
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -135,25 +102,47 @@ alias zshconfig="code ~/.zshrc"
 alias subl="open -a 'Sublime Text'"
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 alias yarnplease="rm -rf node_modules/ && rm yarn.lock && yarn"
-alias grd="git rebase develop"
 alias gc="git clone"
+alias gsc="git stash clear"
+alias grd="git rebase develop"
+alias grm="git rebase master"
+alias gmd="git merge develop"
+alias gmm="git merge master"
 alias gclean="git branch | grep -v "develop" | xargs git branch -D"
 alias listglobalpackages="npm list -g --depth 0"
 alias listvscodeextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
+alias lintme="sh ~/Documents/personal/lint-me/install.sh"
 alias browse="git browse"
+alias start="npm start"
+alias dev="npm run dev"
+alias build="npm run build"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# https://github.com/rupa/z
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+# export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="$PATH:/usr/local/mysql/bin"
+
 # Move next only if `homebrew` is installed
 if command -v brew >/dev/null 2>&1; then
 	# Load rupa's z if installed
 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
 fi
 
-# https://hub.github.com/
-eval "$(hub alias -s)"
+export GPG_TTY=$(tty)
 
-source "/Users/brittanychiang/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+###-tns-completion-start-###
+if [ -f /Users/brittanychiang/.tnsrc ]; then
+    source /Users/brittanychiang/.tnsrc
+fi
+###-tns-completion-end-###
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+export ANDROID_HOME=/usr/local/share/android-sdk
+export ANDROID_SDK_ROOT=/usr/local/share/android-sdk
+
+# https://github.com/zsh-users/zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

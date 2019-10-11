@@ -36,6 +36,9 @@
 - [yo](https://github.com/yeoman/yo)
 - [z](https://github.com/rupa/z)
 - [mas](https://github.com/mas-cli/mas)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
 </details>
 
