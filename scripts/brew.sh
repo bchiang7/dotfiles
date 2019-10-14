@@ -26,6 +26,7 @@ PACKAGES=(
 	wget
   zsh
   zsh-completions
+  zsh-syntax-highlighting
   z
 	composer
 	mas
