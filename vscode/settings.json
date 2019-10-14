@@ -1,5 +1,5 @@
 {
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 2,
   "editor.find.seedSearchStringFromSelection": true,
@@ -11,9 +11,13 @@
   "editor.lineHeight": 22,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderIndentGuides": true,
   "editor.renderLineHighlight": "all",
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [80, 100],
+  "editor.renderWhitespace": "selection",
+  "editor.rulers": [
+    80,
+    100
+  ],
   "editor.scrollBeyondLastLine": true,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
@@ -24,7 +28,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "markdown": "html",
-    "twig": "html",
+    "twig": "html"
   },
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -32,22 +36,36 @@
   "emmet.triggerExpansionOnTab": true,
   /********** FORMAT ON SAVE SETTINGS **********/
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-  },
   "[vue]": {
     "editor.formatOnSave": false,
   },
   "eslint.alwaysShowStatus": true,
   "eslint.autoFixOnSave": true,
   "eslint.options": {
-    "extensions": [ ".html", ".js", ".vue", ".jsx" ]
+    "extensions": [
+      ".html",
+      ".js",
+      ".vue",
+      ".jsx"
+    ]
   },
   "eslint.validate": [
-    { "language": "html", "autoFix": true },
-    { "language": "vue", "autoFix": true },
-    { "language": "javascript", "autoFix": true },
-    { "language": "javascriptreact", "autoFix": true }
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    }
   ],
   "prettier.requireConfig": true,
   "prettier.ignorePath": "**/*.vue",
@@ -58,10 +76,7 @@
   "files.associations": {
     "*.sublime-theme": "jsonc"
   },
-  "files.exclude": {
-    "**/node_modules/": true,
-    "**/tmp/": true
-  },
+  "files.exclude": {},
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -74,9 +89,12 @@
   "gitlens.historyExplorer.enabled": true,
   "gitlens.codeLens.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
   "material-icon-theme.folders.color": "#8695b7",
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.hidesExplorerArrows": true,
+  "powermode.enabled": false,
+  "powermode.presets": "particles",
   "problems.decorations.enabled": true,
   "search.exclude": {
     "**/node_modules": true,
@@ -84,21 +102,11 @@
     "**/dist": true,
     "**/tmp": true,
     "**/vendor": true,
-    "**/storage": true
+    "**/storage": true,
+    "**/.next": true,
+    "**/platforms": true
   },
   "sublimeTextKeymap.promptV3Features": true,
-  "sync.gist": "560603e9f050d552434e9c8cfb241ba8",
-  "sync.host": "",
-  "sync.pathPrefix": "",
-  "sync.quietSync": false,
-  "sync.askGistName": false,
-  "sync.removeExtensions": true,
-  "sync.syncExtensions": true,
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.lastUpload": "2018-07-11T21:52:14.598Z",
-  "sync.lastDownload": "",
-  "sync.forceDownload": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "Fira Mono for Powerline",
@@ -107,7 +115,12 @@
   "terminal.integrated.letterSpacing": 1,
   "terminal.integrated.shell.osx": "zsh",
   "terminal.integrated.lineHeight": 1.1,
+  "turboConsoleLog.logMessagePrefix": "📣",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
   "window.openFoldersInNewWindow": "on",
   "window.restoreWindows": "all",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
@@ -118,5 +131,5 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.feedback.visible": false
+  "workbench.colorCustomizations": {}
 }
