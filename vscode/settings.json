@@ -35,12 +35,15 @@
   },
   "emmet.triggerExpansionOnTab": true,
   /********** FORMAT ON SAVE SETTINGS **********/
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
   "editor.formatOnSave": true,
   "[vue]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
   "eslint.options": {
     "extensions": [
       ".html",
@@ -49,24 +52,6 @@
       ".jsx"
     ]
   },
-  "eslint.validate": [
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    }
-  ],
   "prettier.requireConfig": true,
   "prettier.ignorePath": "**/*.vue",
   /********** FORMAT ON SAVE SETTINGS **********/
@@ -86,7 +71,6 @@
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "gitlens.historyExplorer.enabled": true,
   "gitlens.codeLens.enabled": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.implicitProjectConfig.experimentalDecorators": true,
@@ -106,7 +90,18 @@
     "**/.next": true,
     "**/platforms": true
   },
-  "sublimeTextKeymap.promptV3Features": true,
+  "sync.gist": "560603e9f050d552434e9c8cfb241ba8",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-07-11T21:52:14.598Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontFamily": "Fira Mono for Powerline",
@@ -125,11 +120,11 @@
   "window.restoreWindows": "all",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {},
   "workbench.colorTheme": "Halcyon",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.enablePreview": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorCustomizations": {}
+  "workbench.startupEditor": "newUntitledFile"
 }
