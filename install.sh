@@ -52,7 +52,7 @@ eval "sh scripts/vscode.sh"
 
 # Add global NPM packages
 printf "\n${GREEN}Installing global npm packages for Spaceship ZSH Prompt, Trash CLI, Gulp CLI, Docker CLI, Gatsby CLI, Vue CLI...${NORMAL}\n"
-eval "npm install -g spaceship-prompt trash-cli gulp-cli docker-cli gatsby-cli @vue/cli vsce yo"
+eval "npm install -g spaceship-prompt trash-cli"
 
 # Refresh ZSH config
 eval "source ~/.zshrc"

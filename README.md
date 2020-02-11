@@ -29,16 +29,11 @@
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Spaceship Prompt for ZSH](https://github.com/denysdovhan/spaceship-prompt)
 - [Trash](https://github.com/sindresorhus/trash-cli)
-- [Gulp](https://gulpjs.com/)
-- [Gatsby](https://www.gatsbyjs.org/docs/)
-- [Vue](https://cli.vuejs.org/)
-- [vsce](https://code.visualstudio.com/docs/extensions/publish-extension)
-- [yo](https://github.com/yeoman/yo)
-- [z](https://github.com/rupa/z)
-- [mas](https://github.com/mas-cli/mas)
+- [hub](https://hub.github.com/)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
+- [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
 
 </details>
 
