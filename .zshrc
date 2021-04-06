@@ -140,12 +140,11 @@ alias zshconfig="code ~/.zshrc"
 alias subl="open -a 'Sublime Text'"
 alias npmplease="rm -rf node_modules/ && rm -f package-lock.json && npm install"
 alias yarnplease="rm -rf node_modules/ && rm yarn.lock && yarn"
-alias gc="git clone"
 alias gsc="git stash clear"
 alias grd="git rebase develop"
-alias grm="git rebase master"
+alias grm="git rebase main"
 alias gmd="git merge develop"
-alias gmm="git merge master"
+alias gmm="git merge main"
 alias gclean="git branch | grep -v "develop" | xargs git branch -D"
 alias listglobalpackages="npm list -g --depth 0"
 alias listvscodeextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
@@ -155,6 +154,10 @@ alias start="npm start"
 alias dev="npm run dev"
 alias build="npm run build"
 alias branches="git branch --sort=-committerdate"
+
+clone() {
+  git clone "$1" && cd "$(basename "$1" .git)"
+}
 
 # https://github.com/nvm-sh/nvm
 export NVM_DIR="$HOME/.nvm"
