@@ -53,10 +53,6 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 # printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
 # eval "cp ./zshrc ~/.zshrc"
 
-# Add spaceship prompt
-printf "\n${GREEN}Installing spaceship prompt...${NORMAL}\n"
-eval "brew install spaceship"
-
 # Install NVM
 printf "\n${GREEN}Installing NVM...${NORMAL}\n"
 eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
@@ -64,6 +60,9 @@ eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh |
 eval "source ~/.zshrc"
 eval "nvm install node --lts"
 eval "nvm alias default node"
+
+printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
+eval "brew install hub"
 
 # Install fonts
 eval "sh scripts/fonts.sh"

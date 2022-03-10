@@ -48,7 +48,7 @@
 - [XCode Command Line Tools](https://developer.apple.com/xcode/downloads/)
 - [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
-- [Spaceship Prompt for ZSH](https://github.com/denysdovhan/spaceship-prompt)
+- [Spaceship Prompt for ZSH](https://github.com/spaceship-prompt/spaceship-prompt#oh-my-zsh)
 - [Trash](https://github.com/sindresorhus/trash-cli)
 - [hub](https://hub.github.com/)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
