@@ -10,6 +10,27 @@
    sh install.sh
    ```
 
+## Import iTerm theme
+
+- **iTerm2** > **Profiles**
+- Click on **+** to create a new profile
+- Navigate to **Colors** tab
+- **Color Presets** > **Import**
+- Select the `halcyon.itermcolors` file in this repo
+- Click on **Color Presets** and choose `halcyon`
+
+## Update ZSH config
+
+[`.zshrc`](/.zshrc)
+
+## Github SSH Key Setup
+
+[Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+[Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+[Signing GitHub commits with GPG](https://gist.github.com/bchiang7/47df18319d6507d82a1b3a34fce55dd8)
+
 ## Things
 
 <details>
@@ -41,23 +62,20 @@
 <summary>Browsers</summary>
 
 - [Chrome](https://www.google.com/chrome/browser/desktop/)
-- [Chrome Canary](https://www.google.com/chrome/canary/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-- [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 
 </details>
 
 <details>
 <summary>Productivity</summary>
 
-- [Google Backup & Sync](https://www.google.com/drive/download/)
 - [Spectacle](https://www.spectacleapp.com/)
 - [Clipy](https://clipy-app.com/)
 - [Alfred](https://www.alfredapp.com/)
 - [1Password](https://1password.com/)
 - [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
-- [Todoist](https://todoist.com/downloads/mac)
-- [Google Keep Desktop](https://github.com/andrepolischuk/keep)
+- [Tick Tick](https://ticktick.com/about/download)
+- [Notion](https://www.notion.so/desktop)
 
 </details>
 
@@ -65,58 +83,34 @@
 <summary>Development</summary>
 
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Sublime Text](https://www.sublimetext.com/)
-- [Atom](https://atom.io/)
 - [iTerm2](https://www.iterm2.com/)
-- [Hyper](https://hyper.is/)
 - [Postman](https://www.getpostman.com/)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - [XCode](https://developer.apple.com/xcode/)
+- [Transmit](https://apps.apple.com/us/app/transmit-5/id1436522307?mt=12)
 
 </details>
 
 <details>
 <summary>Design</summary>
 
-- [Sketch](https://www.sketchapp.com/)
-- [ImageOptim](https://imageoptim.com/mac)
+- [Figma](https://www.figma.com/downloads/)
 
 </details>
 
 <details>
 <summary>Communication</summary>
 
-- [Slack](https://slack.com/)
-- [Spark](https://sparkmailapp.com/)
-- [Android Messages Desktop](https://github.com/chrisknepper/android-messages-desktop)
-- [Messenger for Mac](https://fbmacmessenger.rsms.me/)
+- [Slack](https://slack.com/downloads/mac)
+- [Spark](https://apps.apple.com/app/apple-store/id1176895641)
+- [Zoom](https://zoom.us/download)
 
 </details>
 
 <details>
 <summary>Miscellaneous</summary>
 
-- [Rocket](http://matthewpalmer.net/rocket/)
-- [Vanilla](https://matthewpalmer.net/vanilla/)
 - [Spotify](https://www.spotify.com/)
-- [Airbar](https://tiivik.github.io/)
-- [VLC](http://www.videolan.org/)
+- [Rocket](http://matthewpalmer.net/rocket/)
 
 </details>
-
-## Import iTerm theme
-
-- **iTerm2** > **Profiles**
-- Click on **+** to create a new profile
-- Navigate to **Colors** tab
-- **Color Presets** > **Import**
-- Select the `halcyon.itermcolors` file in this repo
-- Click on **Color Presets** and choose `halcyon`
-
-## Github SSH Key Setup
-
-[Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-
-[Adding A New SSH Key to Your Github Account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-[Signing GitHub commits with GPG](https://gist.github.com/bchiang7/47df18319d6507d82a1b3a34fce55dd8)
