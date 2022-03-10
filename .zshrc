@@ -199,14 +199,14 @@ if command -v brew >/dev/null 2>&1; then
 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
 fi
 
+# for signing github commits
+export GPG_TTY=$(tty)
+
 ###-tns-completion-start-###
 if [ -f /Users/brittanychiang/.tnsrc ]; then
     source /Users/brittanychiang/.tnsrc
 fi
 ###-tns-completion-end-###
-
-# for signing github commits
-export GPG_TTY=$(tty)
 
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 # export ANDROID_HOME=/usr/local/share/android-sdk

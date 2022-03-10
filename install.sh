@@ -37,12 +37,6 @@ if [[ `uname -m` == 'arm64' ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Install NVM
-printf "\n${GREEN}Installing NVM...${NORMAL}\n"
-eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
-eval "nvm install node --lts"
-eval "nvm alias default node"
-
 # Install Yarn for easier (and faster) Node.js dependency management
 printf "\n${BLUE}Installing Yarn for easier (and faster) Node.js dependency management...${NORMAL}\n"
 eval "brew install yarn --ignore-dependencies"
@@ -59,12 +53,17 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 # printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
 # eval "cp ./zshrc ~/.zshrc"
 
-# Add global NPM packages
-printf "\n${GREEN}Installing global npm packages...${NORMAL}\n"
+# Add spaceship prompt
+printf "\n${GREEN}Installing spaceship prompt...${NORMAL}\n"
 eval "brew install spaceship"
 
+# Install NVM
+printf "\n${GREEN}Installing NVM...${NORMAL}\n"
+eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
 # Refresh ZSH config
 eval "source ~/.zshrc"
+eval "nvm install node --lts"
+eval "nvm alias default node"
 
 # Install fonts
 eval "sh scripts/fonts.sh"
