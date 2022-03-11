@@ -118,7 +118,7 @@ alias gclean="git branch | grep -v "develop" | xargs git branch -D"
 alias listglobalpackages="npm list -g --depth 0"
 alias listvscodeextensions="code --list-extensions | xargs -L 1 echo code --install-extension"
 alias lintme="sh ~/Documents/personal/lint-me/install.sh"
-alias browse="git browse"
+alias browse="gh repo view --web"
 alias start="npm start"
 alias dev="npm run dev"
 alias build="npm run build"
@@ -149,9 +149,6 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
-
-# https://hub.github.com/
-eval "$(hub alias -s)"
 
 # https://github.com/rupa/z
 # Move next only if `homebrew` is installed

@@ -50,7 +50,6 @@
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Spaceship Prompt for ZSH](https://github.com/spaceship-prompt/spaceship-prompt#oh-my-zsh)
 - [Trash](https://github.com/sindresorhus/trash-cli)
-- [hub](https://hub.github.com/)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)

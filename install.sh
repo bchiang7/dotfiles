@@ -62,7 +62,7 @@ eval "nvm install node --lts"
 eval "nvm alias default node"
 
 printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
-eval "brew install hub"
+eval "brew install gh"
 
 # Install fonts
 eval "sh scripts/fonts.sh"
