@@ -58,8 +58,7 @@ printf "\n${GREEN}Installing NVM...${NORMAL}\n"
 eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
 # Refresh ZSH config
 eval "source ~/.zshrc"
-eval "nvm install node --lts"
-eval "nvm alias default node"
+eval "nvm install --lts"
 
 printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
 eval "brew install gh"
