@@ -64,7 +64,7 @@ printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
 eval "brew install gh"
 
 # Install fonts
-eval "sh scripts/fonts.sh"
+# eval "sh scripts/fonts.sh"
 
 # Open links for apps that can't be downloaded via brew cask
 printf "\n${BLUE}Opening links for apps to download...${NORMAL}\n"
@@ -85,10 +85,10 @@ eval "open https://www.notion.so/desktop"
 # Development
 eval "open https://code.visualstudio.com/"
 eval "open https://www.iterm2.com/"
-eval "open https://www.getpostman.com/"
 eval "open https://docs.docker.com/docker-for-mac/install/"
-eval "open https://developer.apple.com/xcode/"
-eval "open https://apps.apple.com/us/app/transmit-5/id1436522307?mt=12"
+# eval "open https://www.getpostman.com/"
+# eval "open https://developer.apple.com/xcode/"
+# eval "open https://apps.apple.com/us/app/transmit-5/id1436522307?mt=12"
 
 # Design
 eval "open https://www.figma.com/downloads/"
