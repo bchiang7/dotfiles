@@ -55,7 +55,7 @@ eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 
 # Install NVM
 printf "\n${GREEN}Installing NVM...${NORMAL}\n"
-eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
+eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash"
 # Refresh ZSH config
 eval "source ~/.zshrc"
 eval "nvm install --lts"
