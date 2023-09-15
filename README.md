@@ -109,7 +109,7 @@
 <details>
 <summary>Miscellaneous</summary>
 
-- [Spotify](https://www.spotify.com/)
+- [Spotify](https://www.spotify.com/us/download/mac/)
 - [Rocket](http://matthewpalmer.net/rocket/)
 
 </details>

@@ -45,13 +45,29 @@ eval "brew install yarn --ignore-dependencies"
 printf "\n${MAGENTA}Installing Composer for easier PHP dependency management...${NORMAL}\n"
 eval "brew install composer"
 
+printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
+eval "brew install gh"
+
 # Install Oh My Zsh
 printf "\n${BLUE}Installing Oh My Zsh...${NORMAL}\n"
 eval "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
 
+printf "\n${MAGENTA}Installing github CLI...${NORMAL}\n"
+eval "brew install gh"
+
+printf "\n${MAGENTA}Installing spaceship prompt...${NORMAL}\n"
+eval "git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1"
+echo "ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme""
+
+printf "\n${MAGENTA}Installing ZSH autosuggestions plugin...${NORMAL}\n"
+eval "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
+
+printf "\n${MAGENTA}Installing ZSH syntax highlighting plugin...${NORMAL}\n"
+eval "git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting"
+
 # Copy ZSH config
-# printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
-# eval "cp ./zshrc ~/.zshrc"
+printf "${YELLOW}Copying ZSH config into ~/.zshrc...${NORMAL}\n"
+eval "cp ./.zshrc ~/.zshrc"
 
 # Install NVM
 printf "\n${GREEN}Installing NVM...${NORMAL}\n"
@@ -59,9 +75,6 @@ eval "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh |
 # Refresh ZSH config
 eval "source ~/.zshrc"
 eval "nvm install --lts"
-
-printf "\n${MAGENTA}Installing other brew casks...${NORMAL}\n"
-eval "brew install gh"
 
 # Install fonts
 # eval "sh scripts/fonts.sh"
