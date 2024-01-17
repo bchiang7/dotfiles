@@ -54,6 +54,7 @@
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
+- [rupa’s z](https://github.com/rupa/z/)
 
 </details>
 

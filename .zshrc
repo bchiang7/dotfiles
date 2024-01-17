@@ -151,11 +151,7 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 # https://github.com/rupa/z
-# Move next only if `homebrew` is installed
-if command -v brew >/dev/null 2>&1; then
-	# Load rupa's z if installed
-	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
-fi
+. /Users/brittanychiang/Documents/personal/z/z.sh
 
 # for signing github commits
 export GPG_TTY=$(tty)
