@@ -87,7 +87,7 @@ eval "open https://www.google.com/chrome/"
 eval "open https://www.mozilla.org/en-US/firefox/new/"
 
 # Productivity
-eval "open https://www.spectacleapp.com/"
+eval "open https://rectangleapp.com/"
 eval "open https://clipy-app.com/"
 eval "open https://www.alfredapp.com/"
 eval "open https://1password.com/downloads/mac/"

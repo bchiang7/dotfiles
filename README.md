@@ -69,7 +69,7 @@
 <details>
 <summary>Productivity</summary>
 
-- [Spectacle](https://www.spectacleapp.com/)
+- [Rectangle](https://rectangleapp.com/)
 - [Clipy](https://clipy-app.com/)
 - [Alfred](https://www.alfredapp.com/)
 - [1Password](https://1password.com/)
