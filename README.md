@@ -70,7 +70,7 @@
 <summary>Productivity</summary>
 
 - [Rectangle](https://rectangleapp.com/)
-- [Clipy](https://clipy-app.com/)
+- [Maccy](https://maccy.app/)
 - [Alfred](https://www.alfredapp.com/)
 - [1Password](https://1password.com/)
 - [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
@@ -102,7 +102,7 @@
 <summary>Communication</summary>
 
 - [Slack](https://slack.com/downloads/mac)
-- [Spark](https://apps.apple.com/app/apple-store/id1176895641)
+- [Spark](https://sparkmailapp.com/)
 - [Zoom](https://zoom.us/download)
 
 </details>
@@ -111,6 +111,6 @@
 <summary>Miscellaneous</summary>
 
 - [Spotify](https://www.spotify.com/us/download/mac/)
-- [Rocket](http://matthewpalmer.net/rocket/)
+<!-- - [Rocket](http://matthewpalmer.net/rocket/) -->
 
 </details>

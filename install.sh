@@ -88,7 +88,7 @@ eval "open https://www.mozilla.org/en-US/firefox/new/"
 
 # Productivity
 eval "open https://rectangleapp.com/"
-eval "open https://clipy-app.com/"
+eval "open https://maccy.app/"
 eval "open https://www.alfredapp.com/"
 eval "open https://1password.com/downloads/mac/"
 eval "open https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12"
@@ -108,7 +108,7 @@ eval "open https://www.figma.com/downloads/"
 
 # Communication
 eval "open https://slack.com/downloads/mac"
-eval "open https://apps.apple.com/app/apple-store/id1176895641"
+eval "open https://sparkmailapp.com/"
 eval "open https://zoom.us/download"
 
 # Miscellaneous
