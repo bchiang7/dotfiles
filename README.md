@@ -73,7 +73,8 @@
 - [Maccy](https://maccy.app/)
 - [Alfred](https://www.alfredapp.com/)
 - [1Password](https://1password.com/)
-- [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12)
+- [Meeting Bar](https://meetingbar.app/)
+<!-- - [Next Meeting](https://itunes.apple.com/us/app/next-meeting/id1017470484?mt=12) -->
 - [Tick Tick](https://ticktick.com/about/download)
 - [Notion](https://www.notion.so/desktop)
 
